@@ -59,6 +59,7 @@ def seleciona(ind, adaptacao):
     
     ind_ordenado, adaptacao_ordenado = list(ind_ordenado), list(adaptacao_ordenado)
 
+    #removendo os usuarios menos adaptados até que fiquem somente 5
     while len(ind_ordenado) > 5:
         ind_ordenado.pop()
         adaptacao_ordenado.pop()
