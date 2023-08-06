@@ -19,6 +19,7 @@ def gera_populacao(ind):
         for j in range(10):
             ind[i][j] = random.randint(0, 1)
 
+#funcao de segundo grau
 def g(x):
     return x ** 2 - 9
 
