@@ -21,7 +21,7 @@ def gera_populacao(ind):
 
 #funcao de segundo grau
 def g(x):
-    return x ** 2 - 9
+    return x ** 2 + 3 * x - 4
 
 def decodifica(binario):
     
